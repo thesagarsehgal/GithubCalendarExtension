@@ -1,11 +1,16 @@
 {
-  "manifest_version": 2,
-  "name": "My Github Calendar",
-  "version": "0.1",
-  "permissions": [
-    "storage"
-  ],
-  "chrome_url_overrides" : {
-    "newtab": "github_calendar.html"
-  }
+	// Specifying The Maifest Version Number
+	"manifest_version": 2,
+	// Name of my Chrome Extension
+	"name": "My Github Calendar",
+	// Specifying the version of my extension
+	"version": "0.1",
+	// Specifying that I would be using local storage to store data
+	"permissions": [
+		"storage"
+	],
+	// Specifying that the extension should work on opening a new tab
+	"chrome_url_overrides" : {
+		"newtab": "github_calendar.html"
+	}
 }
